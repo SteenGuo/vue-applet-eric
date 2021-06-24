@@ -1,6 +1,6 @@
 {
   "name": "vue-applet-eric",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a vite-vue program",
   "main": "src/main.js",
   "scripts": {
