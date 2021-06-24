@@ -1,0 +1,22 @@
+{
+  "name": "vue-applet-eric",
+  "version": "1.0.0",
+  "description": "a vite-vue program",
+  "main": "lib/src/main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "eric"
+  ],
+  "author": "eric_g",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SteenGuo/vue-applet-eric/issues"
+  },
+  "homepage": "https://github.com/SteenGuo/vue-applet-eric#readme"
+}
