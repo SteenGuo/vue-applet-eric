@@ -2,12 +2,25 @@
   "name": "vue-applet-eric",
   "version": "1.0.0",
   "description": "a vite-vue program",
-  "main": "lib/src/main.js",
-  "directories": {
-    "lib": "lib"
-  },
+  "main": "src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "serve": "vite preview", 
+    "staging": "vite staging --mode staging",
+    "build": "vite build --mode production"
+
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "normalize.css": "^8.0.1",
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.3",
+    "@vue/compiler-sfc": "^3.0.5",
+    "postcss-px-to-viewport": "^1.1.1",
+    "sass": "^1.35.1",
+    "vite": "^2.3.8"
   },
   "keywords": [
     "vue",
